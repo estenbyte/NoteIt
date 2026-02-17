@@ -12,3 +12,6 @@ xcuserdata/
 
 # Temporary files
 *.tmp
+
+# Build artifacts
+*.dmg
