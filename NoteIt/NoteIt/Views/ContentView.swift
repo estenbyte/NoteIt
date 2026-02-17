@@ -22,7 +22,7 @@ struct ContentView: View {
             }
         }
         .clipped()
-        .animation(.easeInOut(duration: 0.25), value: selectedNote)
+        .animation(.easeOut(duration: 0.15), value: selectedNote)
         .frame(minWidth: 500, minHeight: 400)
         .preferredColorScheme(themeManager.theme.colorScheme)
     }

@@ -107,11 +107,6 @@ struct NoteListView: View {
                                     selectedNote = note
                                 }
                             }
-                            .gesture(
-                                TapGesture(count: 2).onEnded {
-                                    renamingNoteID = note.id
-                                }
-                            )
                             .contextMenu {
                                 Button {
                                     renamingNoteID = note.id
